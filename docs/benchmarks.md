@@ -108,7 +108,7 @@ server {
         proxy_pass http://whoami;
         proxy_http_version 1.1;
         proxy_set_header Connection "";
-	proxy_set_header  X-Forwarded-Host $host;
+        proxy_set_header  X-Forwarded-Host $host;
     }
 }
 ```
